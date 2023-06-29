@@ -1,0 +1,31 @@
+a {
+    all: unset;
+}
+.headerWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+.logoDiv {
+    width: 30%;
+    display: flex;
+}
+.logoImg {
+    width: 30%;
+}
+.logoText {
+    align-self: center;
+    font-size: 1.5rem;
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+.headerLinkWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 60%;
+
+}

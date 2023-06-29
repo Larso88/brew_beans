@@ -1,0 +1,79 @@
+.navigationLink {
+    color: #FF9800 ;
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.navigationCoffe {
+    z-index: 20;
+    font-size: 1.8rem;
+    font-family:'Courier New', Courier, monospace;
+    position: absolute;
+    color: #FF9800;
+    transition: color 1s 2s;
+}
+.text-container {
+    overflow: hidden;
+    position: relative;
+    top: 0;
+}
+.text {
+    
+    position: relative;
+    color: #5D4037;
+    z-index: 1;
+}
+
+.text::after {
+    content: attr(data-content);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #D7CCC8;
+    z-index: 2;
+    transition: visibility 0.01s;
+    transition-delay: 0.52s;
+    visibility: hidden;
+
+}
+.coffee-cup:hover .text::after {
+    visibility: visible;
+
+}
+
+.linkDiv:hover {
+    cursor: pointer;
+
+}
+.linkDiv {
+    align-self: center;
+}
+.coffee-cup {
+    position: relative;
+    width: 130px;
+    height: 140px;
+}
+.cup-body {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    border-radius: 0 0 50px 50px;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+}
+
+.coffee {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 0%; /* Start with an empty cup */
+    background-color: #8B4513;
+    transition: height 2s; /* Transition over 2 seconds */
+}
+
+.coffee-cup:hover .coffee {
+    height: 90%; /* Fill up to 90% of the cup */
+}
