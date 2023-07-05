@@ -8,6 +8,7 @@ import Menu from "./component/Menu";
 import Shop from "./component/Shop";
 import Reviews from "./component/Reviews";
 import Contact from "./component/Contact";
+import HomeFooter from './component/HomeFooter';
 
 
 function App() {
@@ -16,12 +17,14 @@ function App() {
         <TopNavigation />
         <Routes>
             <Route path={"/"} element={<Home />} />
+            <Route path={"/home"} element={<Home />} />
             <Route path={"/about"} element={<About />} />
             <Route path={"/menu"} element={<Menu />} />
             <Route path={"/shop"} element={<Shop />} />
             <Route path={"/reviews"} element={<Reviews />} />
             <Route path={"/contact"} element={<Contact />} />
         </Routes>
+        <HomeFooter />
       </div>
   );
 }

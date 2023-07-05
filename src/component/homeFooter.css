@@ -1,0 +1,34 @@
+.footerWrapper{
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.leftSection, .middleSection, .rightSection{
+    display: flex;
+    color: #8B4513;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+.middleSection {
+
+
+}
+
+.footerLogoImg {
+    width: 15%;
+}
+.facebookLogoImg, .instagramLogoImg, .twitterLogoImg{
+    width: 30px;
+}
+
+.anchorLink {
+    font-size: 20px;
+    margin-right: 10px;;
+}
+.sosialMediaDiv {
+    margin-bottom: 10px;
+}
