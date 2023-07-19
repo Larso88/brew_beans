@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+
+h3, p {
+    all: unset;
+}
+.componentWrapper {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.menuWrapper {
+    height: 38rem;
+    border-radius: 15px;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    margin: 2rem;
+    padding: 0.5rem 5.5rem;
+    font-family: 'Caveat', cursive;
+    background: radial-gradient(circle, rgba(43,44,45,1) 0%, rgba(27,28,29,1) 100%);
+}
+.menuWrapper p {
+    font-size: 1.3rem;
+    color: #D7CCC8;
+    margin-bottom: 0.9rem;
+}
+.nameText {
+    font-size: 2rem;
+}
+.menuHeader {
+    font-size: 2.5rem;
+}
+.priceText, .menuHeader, .menuWrapper {
+    color: #D7CCC8;
+}
+.textWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.costValue {
+    width: fit-content;
+}

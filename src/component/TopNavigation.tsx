@@ -1,7 +1,6 @@
 import React, { FunctionComponent } from 'react';
 import TopNavigationLink from './TopNavigationLink';
 import "./topNavigation.css";
-import CompanyLogo from "../images/coffeLogo.png"
 
 
 
@@ -10,7 +9,7 @@ const TopNavigation: FunctionComponent = () => {
         <>
             <div className='headerWrapper'>
                 <div className='logoDiv'>
-                    <img className='logoImg' src={CompanyLogo} alt="Brown Beans logo" />
+                    <img className='logoImg' src={process.env.PUBLIC_URL + "/images/coffeLogo.png"} alt="Brown Beans logo" />
                     <h3 className='logoText'>Brew Beans</h3>
                 </div>
                 <div className='headerLinkWrapper'>

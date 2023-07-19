@@ -29,7 +29,7 @@ const About: FunctionComponent = () => {
                     Whether you prefer a full-bodied espresso, a creamy cappuccino, or a smooth latte, 
                     Brew Beans promises an exceptional coffee, every time.</p>
                 <h4>Call of Action:</h4>
-                <p>We invite you to join us at Brew Beans and experience firsthand our passion for coffee. 
+                <p className='bottomP'>We invite you to join us at Brew Beans and experience firsthand our passion for coffee. 
                     Explore our extensive menu, featuring classic coffee favourites and innovative new 
                     blends, or shop our exclusive range of ethically-sourced coffee beans and coffee-related 
                     merchandise. At Brew Beans, we're brewing with passion, and we can't wait to share it 

@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
 .footerWrapper{
     position: fixed;
+    background-color: #D7CCC8;
     width: 100vw;
     bottom: 0;
     display: flex;
@@ -13,9 +16,11 @@
     flex-direction: column;
     align-items: center;
 }
-.middleSection {
-
-
+.leftSection {
+    font-family: 'Dancing Script', cursive; 
+}
+.rightSection a {
+    color: #5D4037;
 }
 
 .footerLogoImg {
@@ -26,9 +31,14 @@
 }
 
 .anchorLink {
-    font-size: 20px;
+    font-size: 16px;
     margin-right: 10px;;
 }
 .sosialMediaDiv {
+    display: flex;
+    align-items: center;
     margin-bottom: 10px;
+}
+.middleSection p {
+    font-size: 0.75rem;
 }

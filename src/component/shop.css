@@ -1,0 +1,48 @@
+.shopComponentWrapper {
+    background-color: #BDBDBD;
+    font-family:'Dancing Script', cursive;
+    height: 100vh;
+}
+.shopComponentWrapper h3 {
+    font-size: 28px;
+    font-family:'Dancing Script', cursive;
+    margin-bottom: 1.5rem;
+}
+.heroImageShop {
+    width: 100vw;
+    height: 40vh;
+    object-fit: cover;
+}
+.shopCardImg {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 15px;
+    object-fit: cover;
+}
+.shopCardWrapper {
+    background-color: #5D4037;
+    color: #BDBDBD;
+    display: flex;
+    flex-direction: column;
+    height: 20rem;
+    width: 20rem;
+    border: 1px solid #5D4037;
+    align-items: center;
+    border-radius: 25px;
+    padding: 1rem;
+}
+
+.shopSectionWrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    flex-wrap: wrap;
+    padding: 2rem 5rem;
+}
+.shopCardSubText {
+
+    margin-bottom: 1.5rem;
+}
+.shopCardHeader {
+    color: #BDBDBD;
+}
