@@ -10,21 +10,35 @@
 }
 .heroImageShop {
     width: 100vw;
-    height: 40vh;
+    height: 35vh;
     object-fit: cover;
+}
+.shopHeroImageHeaderText {
+    position: absolute;
+    top: 27%;
+    left: 38%;
+    color: #F5F5F5;
+    font-size: 3rem;
+    font-family:'Dancing Script', cursive;
+    margin-bottom: 1rem;
+}
+.shopHeroImageSubText {
+    position: relative;
 }
 .shopCardImg {
     width: 15rem;
     height: 15rem;
     border-radius: 15px;
     object-fit: cover;
+    margin-bottom: 0.4rem;
 }
 .shopCardWrapper {
+    position: relative;
     background-color: #5D4037;
     color: #BDBDBD;
     display: flex;
     flex-direction: column;
-    height: 20rem;
+    height: 25rem;
     width: 20rem;
     border: 1px solid #5D4037;
     align-items: center;
@@ -36,6 +50,7 @@
     display: flex;
     flex-direction: row;
     gap: 4rem;
+    justify-content: space-around;
     flex-wrap: wrap;
     padding: 2rem 5rem;
 }
@@ -45,4 +60,10 @@
 }
 .shopCardHeader {
     color: #BDBDBD;
+}
+.shopPriceText {
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+
 }
